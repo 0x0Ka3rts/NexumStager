@@ -32,18 +32,7 @@ CVIOLETBG2 = '\33[105m'
 CBEIGEBG2  = '\33[106m'
 CWHITEBG2  = '\33[107m'
 def choosing():
-	print(CGREEN + """
-Whats your scope?
-
-[1] Hack a list of sites
-
-[2] 
-
-[3]
-
-[4]
-	""" + CEND)
-	#choice = input(CGREEN + "Site list:" + CEND)
+	choice = input(CGREEN + CBOLD + "[+]" + CEND + CGREEN + " Insert the list file for the sites (format: one site per link, 'http(s)://' included): " + CEND)
 
 def main():
 	
